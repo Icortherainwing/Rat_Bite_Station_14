@@ -283,7 +283,7 @@
   id: GunCanAimShooter
 
 - type: Tag
-  id: Hammer
+  id: MeleeHammer
 
 - type: Tag
   id: HardHat
