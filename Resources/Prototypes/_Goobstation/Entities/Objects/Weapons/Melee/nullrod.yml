@@ -77,7 +77,7 @@
     attackRate: 0.8
     damage:
       types:
-        Slash: 13
+        Slash: 18 #Ratbite Buff, it's a fucking claymore and other options outshine it.
         Holy: 10
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
@@ -190,11 +190,11 @@
     damage:
       types:
         Heat: 10
-        Slash: 4
+        Slash: 7 #ratbite buff
         Holy: 10
     soundHit:
       path: /Audio/Weapons/Guns/Hits/energy_meat1.ogg
-  - type: GrabbingItem
+ # - type: GrabbingItem Ratbite: What BOZO decided this was ever okay balance wise?
   - type: IgniteOnMeleeHit # emphasis on FLAMING GIFT!!
     fireStacks: 0.25
   - type: Cautery
@@ -289,7 +289,7 @@
     soundHit:
       collection: BoxingHit
   - type: StaminaDamageOnHit
-    damage: 10
+    damage: 8 # RB Nerf
   - type: Wieldable
   - type: Tag
     tags:
@@ -311,7 +311,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Slash: 12
+        Slash: 8 #RB Nerf
         Holy: 12
   - type: MeleeWeapon
     attackRate: 1.5

@@ -338,6 +338,7 @@
     - !type:GroupSelector
       weight: 75
       children:
+      - id: ToolboxGrey # Ratbite
       - id: FlashlightLantern
       - id: ToolboxEmergencyFilled
       - !type:GroupSelector
@@ -503,7 +504,7 @@
       - id: SawImprov
       - id: HydroponicsToolMiniHoe
       - id: ClothingHandsKnuckleDusters
-      - id: Hammer #Ratbite
+      - id: MeleeHammer #Ratbite
 
 - type: entity
   name: Maint Loot Spawner
