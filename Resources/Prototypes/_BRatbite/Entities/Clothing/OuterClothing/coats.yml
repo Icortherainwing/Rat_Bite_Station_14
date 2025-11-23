@@ -27,10 +27,10 @@
         Heat: 0.7
 
 - type: entity
-  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, ClothingOuterArmorBase]
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing,]
   id: ClothingOuterCoatSHDJacket
   name: SHD Jacket
-  description: A "SHD" Jacket, or a Science Heat Dissipation Jacket given out to experienced scientists to look "fire", while not burning to death right away.
+  description: A "SHD" Jacket, or a Science Heat Dissipation Jacket given out to experienced scientists to look "fire" while not burning to death right away.
   components:
   - type: Sprite
     sprite: _BRatBites/Clothing/OuterClothing/Coats/SHDJacket.rsi
@@ -43,5 +43,4 @@
     - Tail # cant even aim at tails what is the point of this actually? - eirin
     - Arm
     modifiers:
-        Heat: 0.3
-        # i heart copy and pasting floras shit! -eirin
+        Heat: 0.4 # i heart copy and pasting floras shit! -eirin
