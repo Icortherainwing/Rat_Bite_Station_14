@@ -2232,13 +2232,6 @@ entities:
     - type: Transform
       pos: 14.201654,-25.680046
       parent: 1
-- proto: NukeCodePaperStation
-  entities:
-  - uid: 738
-    components:
-    - type: Transform
-      pos: 30.6422,-25.407492
-      parent: 1
 - proto: Paper
   entities:
   - uid: 710
@@ -2266,7 +2259,7 @@ entities:
         Log #1:
 
 
-        The testing on the other side didn't go too well, we lost one of our soldiers. 
+        The testing on the other side didn't go too well, we lost one of our soldiers.
 
         We've noticed an influx of xenos near the outpost, our turrets will hold for now.
 - proto: PosterContrabandEnlistGorlex
